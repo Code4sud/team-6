@@ -2,13 +2,17 @@ import React from "react";
 import { Facebook, Twitter, Instagram, Github } from "lucide-react";
 import { BackgroundBeamsWithCollision } from "@/app/components/ui/background-beams-with-collision";
 import { TimelineDemo } from "./components/TimelineDemo";
+import { TitleDemo } from "./components/TitleDemo";
 import GlobeDemo from "./components/GlobeDemo";
 import { CompareDemo } from "./components/CompareDemo";
+import { ImageAiDemo } from "./components/ImageAiDemo"
 
 export default function Home() {
   return (
     <div className="dark">
       <BackgroundBeamsWithCollisionDemo />
+      <TitleDemo />
+      <ImageAiDemo />
       <TimelineDemo />
       <GlobeDemo />
       <section className="w-full min-h-screen flex flex-col gap-4 items-center justify-center bg-black">
