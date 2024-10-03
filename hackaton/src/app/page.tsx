@@ -13,7 +13,7 @@ export default function Home() {
       <GlobeDemo />
       <section className="w-full min-h-screen flex flex-col gap-4 items-center justify-center bg-black">
         <h2 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-white pb-10">
-          TerraSenseAI réinvente <br /> votre environnement
+          TerraSenseAI réinvente <br /> votre environnement.
         </h2>
         <CompareDemo />
       </section>
