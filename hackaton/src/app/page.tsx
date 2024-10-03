@@ -11,9 +11,9 @@ export default function Home() {
       <BackgroundBeamsWithCollisionDemo />
       <TimelineDemo />
       <GlobeDemo />
-      <section className="w-full min-h-screen flex flex-col gap-4 items-center justify-center">
-        <h2 className="scroll-m-20  pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-          TerraSense réinvente votre environnement
+      <section className="w-full min-h-screen flex flex-col gap-4 items-center justify-center bg-black">
+        <h2 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-white pb-10">
+          TerraSenseAI réinvente <br /> votre environnement
         </h2>
         <CompareDemo />
       </section>
