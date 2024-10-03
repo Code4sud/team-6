@@ -3,6 +3,6 @@ import React from "react";
 
 export const ImageAi = ()=> {
     return (
-        <div className="">Test</div>
+        <div className=""></div>
     )
 }
